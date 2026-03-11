@@ -21,14 +21,14 @@ if pregunta2 == respuesta_2:
 else:
     print('incorrecto')
 
-pregunta3 = input('que animal tiene 4 patas y una cola?')
+pregunta3 = input('que animal tiene una melena?')
 if pregunta3 == respuesta_3:
     contador += 1
     print('haz ganado un punto')
 else:
     print('incorrecto')
 
-pregunta4 = input('que animal tiene 4 patas y una cola?')
+pregunta4 = input('que animal tiene una trompa?')
 if pregunta4 == respuesta_4:
     contador += 1
     print('haz ganado un punto')
