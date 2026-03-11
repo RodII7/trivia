@@ -35,4 +35,9 @@ if pregunta4 == respuesta_4:
 else:
     print('incorrecto')
 
-print(f'fin, haz obtenido {contador} puntos')
+if contador == 4:
+    print(f'excelente, haz obtenido {contador} punto/s')
+elif contador >= 2:
+    print(f'muy bien, haz obtenido {contador} punto/s')
+else:
+    print(f'puedes mejorer, haz obtenido {contador} punto/s')
